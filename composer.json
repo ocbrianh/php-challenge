@@ -1,0 +1,24 @@
+{
+    "name": "brianhong/php-code-challenge",
+    "description": "PHP code challenge.",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Brian Hong",
+            "email": "ocbrianh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "download-files": "php bin/main.php"
+    }
+}
